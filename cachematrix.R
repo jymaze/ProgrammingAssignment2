@@ -2,7 +2,8 @@
 ## I chose to use explicit variable names and emphasize structure.
 ## "Readability counts" Tim Peters
 
-## This function creates a special "matrix" object that can cache its inverse
+## This function creates a special "matrix" object that stores a matrix
+## and can cache its inverse. Getter and setter functions are provided.
 
 makeCacheMatrix <- function(stored_matrix = numeric()) {
   
